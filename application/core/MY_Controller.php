@@ -41,6 +41,7 @@ class MY_Controller extends CI_Controller {
         $this->load->view($view,$data);
         $this->load->view('footer',$data);
     }
+    
 }
 
 ?>
